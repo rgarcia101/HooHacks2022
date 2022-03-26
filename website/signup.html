@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Login Page </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="script" href="login.html">
+    </head>  
+    <body>  
+        <nav>
+            <a href="main.html"><img src ="logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li class="active"><a href="Login.html">LOGIN/REGISTRATION</a></li>
+                    <li><a href="">RESOURCES</a></li>
+                </ul>
+            </div>
+        </nav>  
+        <h1> JournalMe Signup </h1>
+            <div class="container"> 
+                <label>First Name: </label> 
+                <input type="text" placeholder="Enter First Name" name="firstname" required>
+                <label>Last Name: </label> 
+                <input type="text" placeholder="Enter Last Name" name="lastname" required>
+                <label>Username: </label> 
+                <input type="text" placeholder="Enter Username" name="username" required>
+                <label>Email: </label> 
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <label>Password: </label> 
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <label>Re-enter Password: </label> 
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <button type="submit" class="loginbtn"onclick="window.location.href='main_loggedin.html'"> Register</button> 
+                <button type="button" class="signinbtn" onclick="window.location.href='login.html'"> Sign In</button>
+                <button type="button" class="cancelbtn" onclick="window.location.href='main.html'">Cancel</button> 
+            </div> 
+        </form>   
+    </body>   
+</html>
