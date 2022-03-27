@@ -1,5 +1,5 @@
-# HooHacks2022
-JournalMe: Track you mental health with an online journal and get a weekly color report to let you know how your emotional health is doing.
+# HooHacks2022: JournalMe
+Track you mental health with an online journal and get a weekly color report to let you know how your emotional health is doing.
 
 ## Inspiration
 We were inspired by our own experience journaling, and a desire to make that process better through the power of technology. We hope our web app will be a helpful tool to those who want to have fun and get into the habit of journaling. 
