@@ -59,5 +59,11 @@ def resources():
     full_filename = os.path.join(app.config['UPLOAD_FOLDER'], 'logo.png')
     return render_template('resources.html', logo = full_filename)
 
+@app.route('/submission.html')
+def submission():
+    full_filename = os.path.join(app.config['UPLOAD_FOLDER'], 'logo.png')
+    balloon_filename = os.path.join(app.config['UPLOAD_FOLDER'], 'balloons.png')
+    return render_template('resources.html', logo = full_filename, ballon = balloon_filename)
+
 if __name__ == "__main__":
     app.run(debug=True)
