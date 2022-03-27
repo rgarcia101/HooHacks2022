@@ -93,6 +93,29 @@ nav img{
     letter-spacing: .1em;
 }
 
+.resrouce_title h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+    letter-spacing: .1em;
+}
+
+.box_section_mobile_collapse h2, p{
+    text-align: left;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: 18px;
+    font-family: 'Poppins', serif;
+}
+
+.box_section_mobile_collapse a{
+    color: #6CB48F;
+    font-family: 'Poppins', serif;
+}
+
+
 .checkin_title p{
     text-align: left;
     padding-top: 30px;
@@ -369,3 +392,4 @@ button {
 .checkin_title h1{
     align-items: center;
 }
+
